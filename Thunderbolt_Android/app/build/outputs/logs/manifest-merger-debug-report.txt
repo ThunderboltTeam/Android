@@ -1,0 +1,103 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5113bb96784d388af87b988cc95f4856/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/minha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/452a276090679b0b0e8651105e469460/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/469dd643c25e08a128ed8546cfae8679/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/3087075d9767473388521abd6bb8e703/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/3a12b13ba709b65743f65cd786a2be2b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/c01bca75f38d46b48debbb465bb6a328/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/92ab522969530d178ffa570cff4bef2a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/95955ac171d00a2ad68290ab3c088af4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/minha/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/29140c9552ea5f096b374ae461556117/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/minha/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/5b927217e104d2dbad686142b828bec8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/minha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/96ed57964204d86f8c9a8e433658c46d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/minha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4105411f6b2f57b7943e78d1425daf20/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:3:5-50
+		INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/minha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/452a276090679b0b0e8651105e469460/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/minha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/452a276090679b0b0e8651105e469460/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.thunderbolt.thunderbolt.LoginActivity
+ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:12:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5113bb96784d388af87b988cc95f4856/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5113bb96784d388af87b988cc95f4856/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/minha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/452a276090679b0b0e8651105e469460/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/minha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/452a276090679b0b0e8651105e469460/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/469dd643c25e08a128ed8546cfae8679/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/469dd643c25e08a128ed8546cfae8679/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/3087075d9767473388521abd6bb8e703/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/3087075d9767473388521abd6bb8e703/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/3a12b13ba709b65743f65cd786a2be2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/3a12b13ba709b65743f65cd786a2be2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/c01bca75f38d46b48debbb465bb6a328/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/c01bca75f38d46b48debbb465bb6a328/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/92ab522969530d178ffa570cff4bef2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/92ab522969530d178ffa570cff4bef2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/95955ac171d00a2ad68290ab3c088af4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/minha/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/95955ac171d00a2ad68290ab3c088af4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/minha/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/29140c9552ea5f096b374ae461556117/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/minha/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/29140c9552ea5f096b374ae461556117/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/minha/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/5b927217e104d2dbad686142b828bec8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/minha/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/5b927217e104d2dbad686142b828bec8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/minha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/96ed57964204d86f8c9a8e433658c46d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/minha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/96ed57964204d86f8c9a8e433658c46d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/minha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4105411f6b2f57b7943e78d1425daf20/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/minha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4105411f6b2f57b7943e78d1425daf20/AndroidManifest.xml:20:5-44
+INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/minha/Downloads/Thunderbolt/Android/Thunderbolt_Android/app/src/main/AndroidManifest.xml
