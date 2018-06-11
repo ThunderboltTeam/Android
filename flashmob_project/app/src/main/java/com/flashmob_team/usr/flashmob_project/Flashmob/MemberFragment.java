@@ -45,73 +45,67 @@ public class MemberFragment extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        int memberCount = 14;
+        LinearLayout parentLL, childLL;
         ImageView memberIv;
         TextView memberName;
-        LinearLayout parentLL;
 
-        RelativeLayout memberRelativeLayout = (RelativeLayout)getActivity().findViewById(R.id.memberRelativeLayout);
-
-        int inputNumber = 8; //번개모임 참여한 사람의 수
+        LinearLayout memberLinearLayout = (LinearLayout)getActivity().findViewById(R.id.memberLinearLayout);
 
         int div = 0, remainder = 0;
-        if(inputNumber % 5 == 0) {
-            div = inputNumber / 5;
-        } else if(inputNumber % 5 != 0) {
-            div = inputNumber / 5 + 1;
+        if(memberCount % 5 == 0) {
+            div = memberCount / 5;
+        } else if(memberCount % 5 != 0) {
+            div = memberCount / 5 + 1;
         }
 
         for(int j=1; j<=div; j++) {
             parentLL = new LinearLayout(getActivity());
-            parentLL.setId(j * 100);
-            RelativeLayout.LayoutParams parentLLParams = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-            parentLLParams.setMargins(convertPixToDP(10), convertPixToDP(5), convertPixToDP(10), convertPixToDP(10));
-            if(j == 1) {
-                parentLLParams.addRule(RelativeLayout.BELOW, R.id.Members);
-            } else {
-                parentLLParams.addRule(RelativeLayout.BELOW, (j-1) * 100);
-            }
+            LinearLayout.LayoutParams parentLLParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+            parentLLParams.setMargins(convertPixToDP(10), 0, convertPixToDP(10), convertPixToDP(10));
             parentLL.setOrientation(LinearLayout.HORIZONTAL);
+            parentLL.setWeightSum(5);
             parentLL.setLayoutParams(parentLLParams);
 
             if(j != div) {
                 remainder = 5;
             } else {
-                remainder = inputNumber % 5;
+                remainder = memberCount % 5;
+                parentLLParams.weight = 0.8f;
+                parentLL.setLayoutParams(parentLLParams);
             }
 
             for(int i=1; i<=remainder; i++) {
-                childRL = new RelativeLayout(getActivity());
-                RelativeLayout.LayoutParams childRLParams = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-                childRLParams.setMargins(20, 0, 20, 0);
-                childRL.setLayoutParams(childRLParams);
+                childLL = new LinearLayout(getActivity());
+                LinearLayout.LayoutParams childLLParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, 1);
+                childLL.setOrientation(LinearLayout.VERTICAL);
+                childLL.setGravity(Gravity.LEFT);
+                childLL.setLayoutParams(childLLParams);
 
                 memberIv = new ImageView(getActivity());
-                memberIv.setId(i);
-                memberIv.setImageResource(R.drawable.leader); //이미지
+                memberIv.setImageResource(R.drawable.leader);
                 memberIv.setBackground(new ShapeDrawable(new OvalShape()));
                 memberIv.setClipToOutline(true);
-                RelativeLayout.LayoutParams memberIvParams = new RelativeLayout.LayoutParams(convertPixToDP(60), convertPixToDP(60));
-                memberIvParams.setMargins(0, 10, 0, 0);
+
+                LinearLayout.LayoutParams memberIvParams = new LinearLayout.LayoutParams(convertPixToDP(50), convertPixToDP(50));
+                memberIvParams.setMargins(10, 10, 10, 10);
                 memberIv.setLayoutParams(memberIvParams);
 
-                childRL.addView(memberIv);
+                childLL.addView(memberIv);
 
                 memberName = new TextView(getActivity());
-                memberName.setText("Member Name");
+                memberName.setText("name");
                 memberName.setGravity(Gravity.CENTER);
 
-                RelativeLayout.LayoutParams memberNameParams = new RelativeLayout.LayoutParams(convertPixToDP(60), ViewGroup.LayoutParams.WRAP_CONTENT);
+                LinearLayout.LayoutParams memberNameParams = new LinearLayout.LayoutParams(convertPixToDP(50), ViewGroup.LayoutParams.WRAP_CONTENT);
                 memberNameParams.setMargins(0, 10, 0, 5);
-                memberNameParams.addRule(RelativeLayout.BELOW, memberIv.getId());
                 memberName.setLayoutParams(memberNameParams);
 
-                childRL.addView(memberName);
+                childLL.addView(memberName);
 
-                parentLL.addView(childRL);
+                parentLL.addView(childLL);
             }
-
-            memberRelativeLayout.addView(parentLL);
-
+            memberLinearLayout.addView(parentLL);
         }
 
     }
