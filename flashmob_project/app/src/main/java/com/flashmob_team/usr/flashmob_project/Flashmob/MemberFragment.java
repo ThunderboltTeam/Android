@@ -24,7 +24,6 @@ import com.flashmob_team.usr.flashmob_project.R;
 @SuppressLint("ValidFragment")
 public class MemberFragment extends Fragment {
     Context mContext;
-    RelativeLayout childRL;
 
     public MemberFragment(Context context) {
         mContext = context;
@@ -71,7 +70,7 @@ public class MemberFragment extends Fragment {
                 remainder = 5;
             } else {
                 remainder = memberCount % 5;
-                parentLLParams.weight = 0.8f;
+                parentLLParams.weight = (float)0.8;
                 parentLL.setLayoutParams(parentLLParams);
             }
 
@@ -88,7 +87,7 @@ public class MemberFragment extends Fragment {
                 memberIv.setClipToOutline(true);
 
                 LinearLayout.LayoutParams memberIvParams = new LinearLayout.LayoutParams(convertPixToDP(50), convertPixToDP(50));
-                memberIvParams.setMargins(10, 10, 10, 10);
+                memberIvParams.setMargins(0,10, 0, 10);
                 memberIv.setLayoutParams(memberIvParams);
 
                 childLL.addView(memberIv);

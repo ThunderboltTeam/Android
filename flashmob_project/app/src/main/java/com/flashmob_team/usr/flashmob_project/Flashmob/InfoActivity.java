@@ -87,7 +87,7 @@ public class InfoActivity extends AppCompatActivity {
                             joinBtn.setBackgroundColor(getResources().getColor(R.color.joinBtnNonActive));
                             dialog.dismiss();
                             checkJoin = true;
-                            joinBtn.setText("참여 취소하기");
+                            joinBtn.setText("참여 취소");
                         }
                     });
                     dialog.setNegativeListener("NO", new ColorDialog.OnNegativeListener() {
