@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.flashmob_team.usr.flashmob_project.R;
 
 import java.util.ArrayList;
@@ -48,8 +49,8 @@ public class ViewPagerAdapter extends PagerAdapter {
         //ImageView에 현재 position 번째에 해당하는 이미지를 보여주기 위한 작업
         int image = (int) arrayList.get(position);
         img.setScaleType(ImageView.ScaleType.FIT_XY);
-//        Glide.with(view).load(image).into(img);
-        img.setImageResource(image);
+        Glide.with(view).load(image).into(img);
+//        img.setImageResource(image);
 
         //ViewPager에 만들어 낸 View 추가
         container.addView(view);
