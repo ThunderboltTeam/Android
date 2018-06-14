@@ -37,6 +37,9 @@ dependencies {
     }
     implementation 'com.android.support:support-fragment:26.1.0'
 
+    // 리사이클러뷰
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+
     //numberpicker 라이브러리
     implementation 'com.github.travijuu:numberpicker:1.0.7'
     //권한 받아오기 라이브러리
