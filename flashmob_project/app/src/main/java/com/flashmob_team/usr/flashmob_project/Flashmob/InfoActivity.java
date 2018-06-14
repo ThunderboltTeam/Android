@@ -75,27 +75,51 @@ public class InfoActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ColorDialog dialog = new ColorDialog(InfoActivity.this);
-                //dialog.setColor("#ffffff"); //색깔 변경 가능
                 dialog.setAnimationEnable(true);
                 dialog.setTitle("JOIN");
-                dialog.setContentText("이 번개 모임에 참여하시겠습니까?");
-                dialog.setPositiveListener("YES", new ColorDialog.OnPositiveListener() {
-                    @Override
-                    public void onClick(ColorDialog dialog) {
-                        Toast.makeText(InfoActivity.this, "신청 완료!", Toast.LENGTH_SHORT).show();
-                        joinBtn.setBackgroundColor(getResources().getColor(R.color.joinBtnNonActive));
-                        dialog.dismiss();
-                    }
-                });
-                dialog.setNegativeListener("NO", new ColorDialog.OnNegativeListener() {
-                    @Override
-                    public void onClick(ColorDialog dialog) {
-                        Toast.makeText(InfoActivity.this, "취소", Toast.LENGTH_SHORT).show();
-                        joinBtn.setBackgroundColor(getResources().getColor(R.color.joinBtnActive));
-                        dialog.dismiss();
-                    }
-                });
-                dialog.show();
+                //dialog.setColor("#ffd600"); //색깔 변경 가능
+                if(!checkJoin) {
+                    dialog.setContentText("이 번개 모임에 참여하시겠습니까?");
+                    dialog.setPositiveListener("YES", new ColorDialog.OnPositiveListener() {
+                        @Override
+                        public void onClick(ColorDialog dialog) {
+                            Toast.makeText(InfoActivity.this, "신청 완료!", Toast.LENGTH_SHORT).show();
+                            joinBtn.setBackground(getDrawable(R.drawable.bottom_btn_border2));
+                            dialog.dismiss();
+                            checkJoin = true;
+                            joinBtn.setText("참여 취소");
+                        }
+                    });
+                    dialog.setNegativeListener("NO", new ColorDialog.OnNegativeListener() {
+                        @Override
+                        public void onClick(ColorDialog dialog) {
+                            dialog.dismiss();
+                        }
+                    });
+                    dialog.show();
+
+                } else {
+                    dialog.setContentText("참여를 취소하시겠습니까?");
+                    dialog.setPositiveListener("YES", new ColorDialog.OnPositiveListener() {
+                        @Override
+                        public void onClick(ColorDialog dialog) {
+                            Toast.makeText(InfoActivity.this, "취소 완료!", Toast.LENGTH_SHORT).show();
+                            joinBtn.setBackground(getDrawable(R.drawable.bottom_btn_border));
+                            dialog.dismiss();
+                            checkJoin = false;
+                            joinBtn.setText("JOIN");
+                        }
+                    });
+                    dialog.setNegativeListener("NO", new ColorDialog.OnNegativeListener() {
+                        @Override
+                        public void onClick(ColorDialog dialog) {
+                            dialog.dismiss();
+                        }
+                    });
+                    dialog.show();
+                    checkJoin = false;
+                }
+
             }
         });
 

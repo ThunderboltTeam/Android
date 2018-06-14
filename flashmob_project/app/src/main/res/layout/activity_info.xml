@@ -115,7 +115,7 @@
     <Button
         android:id="@+id/joinBtn"
         android:text="JOIN"
-        android:background="#ffd600"
+        android:background="@drawable/bottom_btn_border"
         android:layout_width="match_parent"
         android:layout_height="50dp" />
 

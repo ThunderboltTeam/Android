@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Create Meeting"
-            android:textColor="#ffffff"
+            android:textColor="#191919"
             android:textSize="18sp"
             android:textStyle="bold" />
 

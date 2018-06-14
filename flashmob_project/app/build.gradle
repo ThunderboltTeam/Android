@@ -36,23 +36,21 @@ dependencies {
         exclude group: 'com.android.support'
     }
     implementation 'com.android.support:support-fragment:26.1.0'
-
     //numberpicker 라이브러리
     implementation 'com.github.travijuu:numberpicker:1.0.7'
     //권한 받아오기 라이브러리
     implementation 'gun0912.ted:tedpermission:2.0.0'
     //구글맵
     implementation 'com.google.android.gms:play-services:11.0.2'
-
     //multidex
     implementation 'com.android.support:multidex:1.0.3'
-
     //좋아요 라이브러리
     implementation 'com.github.jd-alexander:LikeButton:0.2.3'
     //dialog
     implementation 'com.github.andyxialm:ColorDialog:1.0.0'
-
     // 서버 통신 retrofit2
     implementation 'com.squareup.retrofit2:retrofit:2.0.2'
     implementation 'com.squareup.retrofit2:converter-gson:2.0.2'
+    //recyclerview
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
 }
