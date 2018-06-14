@@ -191,7 +191,11 @@ public class SignUpActivity extends AppCompatActivity {
                                     mProgressDialog.dismiss();
                                 }
                                 else if (response.body().message.equals("Successfully Sign Up")) {
-                                    finish();
+                                    //finish();
+                                    Intent intent = new Intent(getApplicationContext(), SignLocationActivity.class);
+                                    startActivity(intent);
+                                    Log.d("Log", "sign up ok");
+
                                     mProgressDialog.dismiss();
                                 }
                             }

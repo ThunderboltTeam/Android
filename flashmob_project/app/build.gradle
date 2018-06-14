@@ -55,4 +55,7 @@ dependencies {
     // 서버 통신 retrofit2
     implementation 'com.squareup.retrofit2:retrofit:2.0.2'
     implementation 'com.squareup.retrofit2:converter-gson:2.0.2'
+
+    //recyclerview
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
 }

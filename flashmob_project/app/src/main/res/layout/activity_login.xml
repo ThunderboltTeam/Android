@@ -11,6 +11,8 @@
         android:layout_centerHorizontal="true"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:background="@null"
+        android:src="@drawable/flash"
         tools:background="@color/colorBack"
         android:id="@+id/login_logo_image"
         />
