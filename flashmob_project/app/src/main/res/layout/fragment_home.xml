@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.flashmob_team.usr.flashmob_project.HomeLogFragment">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/new_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="15dp"
+        android:clickable="true"
+        android:src="@drawable/plus"
+        android:elevation="6dp"
+        app:backgroundTint="#ffd600"
+/>
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scroll_view"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/scroll_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation = "vertical">
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
